@@ -1,0 +1,6 @@
+[Unit]
+Description=Set nvidia gpu power limit and clocks on boot
+[Service]
+ExecStart=/usr/local/sbin/nvidia.sh
+[Install]
+WantedBy=multi-user.target
