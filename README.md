@@ -1,4 +1,7 @@
 # nvidia-service
+This is for my specific setup DO NOT copy it without reading and modifying the parameters to accomodate your specs
+
+
 
 /etc/systemd/system/nvidia.service
 
