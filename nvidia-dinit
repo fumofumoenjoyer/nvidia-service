@@ -1,0 +1,5 @@
+type            = scripted
+command         = /usr/bin/sh /usr/local/sbin/nvidia.sh
+smooth-recovery = true
+logfile         = /var/log/dinit/nvidia-dinit.log
+depends-on      = login.target
