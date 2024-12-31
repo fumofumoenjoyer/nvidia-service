@@ -4,7 +4,7 @@ This is for my specific setup DO NOT copy it without reading and modifying the p
 ## systemd
 
 ```
-/etc/systemd/system/nvidia.service
+/etc/systemd/system/nvidia-systemd.service
 ```
 ```
 /usr/local/sbin/nvidia.sh
