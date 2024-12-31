@@ -21,4 +21,15 @@ systemctl start nvidia
 ```
 
 ## dinit
-
+```
+/etc/dinit.d/nvidia-dinit
+```
+```
+/usr/local/sbin/nvidia.sh
+```
+```
+sudo chmod a+x /usr/local/sbin/nvidia.sh
+```
+```
+sudo dinitctl -s enable nvidia-dinit
+```
