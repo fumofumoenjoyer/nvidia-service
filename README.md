@@ -15,9 +15,9 @@ sudo chmod a+x /usr/local/sbin/nvidia.sh
 ```
 systemctl daemon-reload
 
-systemctl enable nvidia
+systemctl enable nvidia-systemd
 
-systemctl start nvidia
+systemctl start nvidia-systemd
 ```
 
 ## dinit
